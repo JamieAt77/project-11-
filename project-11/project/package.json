@@ -1,0 +1,21 @@
+{
+  "name": "project-11",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple full-stack Vite React application with an Express backend",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
